@@ -1,0 +1,2 @@
+#!/bin/bash
+(cd public; ruby -run -ehttpd . -p4848)
