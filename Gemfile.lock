@@ -31,6 +31,8 @@ GEM
       guard (>= 2.1.0)
       guard-compat (~> 1.1)
     guard-compat (1.2.1)
+    guard-copy (0.5.1)
+      guard (~> 2.0)
     guard-haml (1.1.2)
       guard (~> 2.0)
       haml (>= 3.0)
@@ -79,6 +81,7 @@ DEPENDENCIES
   guard
   guard-bundler
   guard-coffeescript
+  guard-copy
   guard-haml
   guard-livereload
   guard-sass
